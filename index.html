@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+
+  </head>
+      <body data-spy="scroll" data-target=".navbar-collapse">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="" class="navbar-brand">Weather Channel</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#main">Main</a></li>
+                    <li><a href="#hourly">Hourly</a></li>
+                    <li><a href="#daily">Daily</a></li>
+                  </ul>
+                </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="container box" id="main">
+        <b>Weather in: </b><input placeholder="enter city">
+        <button onclick=" displayWeather()">Submit</button>
+        <div id="results"></div>  
+      </div>
+      <div class="container box" id="hourly">
+        <b>Weather in: </b><input placeholder="enter city">
+        <button onclick=" hourlyWeather()">Submit</button>
+        <div id="results"></div> 
+      </div>
+      <div class="container box" id="daily">
+        <b>Weather in: </b><input placeholder="enter city">
+        <button onclick=" dailyWeather()">Submit</button>
+        <div id="results"></div> 
+      </div>
+
+
+<!-- 
+    <b>Weather in: </b><input id="city" placeholder="enter city">
+    <button onclick=" displayWeather()">Submit</button>
+    <div id="results"></div>
+    <script type="text/javascript" src="script.js"></script> -->
+  
+
+
+
+
+  <!-- Fixed Footer-->
+
+      <footer>
+      <div class="navbar navbar navbar-fixed-bottom">
+        <div class="container">
+          <div class="navbar-text pull-left">
+            <p>&copy; 2016 Swetha, Inc. 2016</p>
+          </div>
+          <div class="navbar-text pull-right">
+          <a href="#"><i class="fa fa-facebook fa-2x"></i> </a>
+          </div>
+        </div>
+      </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+
+<!-- <!doctype html>
+<html>
+<head>
+    <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" -->
+<!-- </head>
+
+<body>
+    <b>Weather in: </b><input id="city" placeholder="enter city">
+    <button onclick=" displayWeather()">Submit</button>
+    <div id="results"></div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html> --> 
