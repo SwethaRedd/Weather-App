@@ -127,15 +127,12 @@ function drawData(data){
 			var thedate = date.getDate();
 			var theMonth = date.getMonth();
 			var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-
-
 			html +="<td>"+thedate +" "+months[theMonth]+"</td><td><img src='http://openweathermap.org/img/w/"+details[i].weather[0].icon+".png'>"+details[i].temp.day+"&deg;F</td>";
 		}
 		$("#dailyData").html(html);
 	});
 
 }
-
 function setDefaultWeather(){
 	$.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=20770&units=metric&appid=94479d3e62bc9e274be58066c734148d", function( data ) {
 		drawData(data);
