@@ -1,4 +1,26 @@
-.box{
-        height: 800px;
-        padding-top: 70px;
+ .navbarBlue{
+        background-color: black;
+      }
+
+      .jumbotron{
+        background-color: #F0F8FF;
+      }
+
+      .pearl{
+         background-color: #F0F8FF;
+      }
+
+      #mainWeather {
+        height: 1100px;
+      padding-top: 70px; 
+      }
+
+      #hourlyWeather{
+        height: 1100px;
+        padding-top: 70px; 
+      }
+
+      #dailyWeather{
+        height: 1100px;
+        padding-top: 70px; 
       }
