@@ -141,5 +141,4 @@ function setDefaultWeather(){
 		drawData(data);
 	});
 }
-
 getLocation();
